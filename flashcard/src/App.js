@@ -1,10 +1,11 @@
 import Main from "./Pages/Createflashcard/components/Main";
-
+import ViewFlashcard from "./Pages/ViewFlashcard/ViewFlashcard";
 
 function App() {
   return (
     <div className="App">
-       <Main />
+      <Main />
+      <ViewFlashcard />
     </div>
   );
 }
